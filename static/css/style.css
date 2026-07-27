@@ -1,0 +1,237 @@
+/*GLOBAL SETTINGS */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    /* Professional dark blue gradient */
+    background:linear-gradient(135deg,#0f172a,#1e3a8a,#2563eb);
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    overflow:hidden;
+
+}
+
+/*LEFT PANEL*/
+
+.left-side{
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+.left-side h1{
+
+    font-size:52px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+    text-shadow:2px 2px 10px rgba(0,0,0,.5);
+
+}
+
+.left-side p{
+
+    font-size:20px;
+
+    opacity:.9;
+
+}
+
+/* LOGIN CARD */
+
+.login-card{
+
+    width:420px;
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    padding:40px;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.35);
+
+}
+
+/*HEADING */
+
+.login-card h2{
+
+    color:#0f172a;
+
+    text-align:center;
+
+    font-weight:700;
+
+}
+
+.login-card p{
+
+    text-align:center;
+
+    color:#6b7280;
+
+    margin-bottom:30px;
+
+}
+
+/* INPUT BOX  */
+
+.input-box{
+
+    position:relative;
+
+    margin-bottom:20px;
+
+}
+
+.input-box input{
+
+    width:100%;
+
+    height:50px;
+
+    padding-left:45px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:10px;
+
+    outline:none;
+
+    font-size:15px;
+
+}
+
+.input-box input:focus{
+
+    border-color:#2563eb;
+
+    box-shadow:0 0 10px rgba(37,99,235,.3);
+
+}
+
+.input-box i{
+
+    position:absolute;
+
+    left:15px;
+
+    top:16px;
+
+    color:#2563eb;
+
+}
+
+/* Password Eye */
+
+.input-box span{
+
+    position:absolute;
+
+    right:40px;
+
+    top:2px;
+
+    cursor:pointer;
+
+    color:#6b7280;
+
+}
+
+/* LOGIN BUTTON*/
+
+.login-btn{
+
+    width:100%;
+
+    height:50px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.login-btn:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-2px);
+
+}
+
+/*LINKS */
+
+.options{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-bottom:20px;
+
+    font-size:14px;
+
+}
+
+.options a{
+
+    text-decoration:none;
+
+    color:#2563eb;
+
+}
+
+.options a:hover{
+
+    text-decoration:underline;
+
+}
+
+/* FOOTER */
+
+.footer{
+
+    text-align:center;
+
+    margin-top:20px;
+
+    color:#9ca3af;
+
+    font-size:13px;
+
+}

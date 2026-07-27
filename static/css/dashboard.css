@@ -1,0 +1,279 @@
+/* 
+   LIBRARY MANAGEMENT SYSTEM
+   Dashboard Stylesheet
+   
+ */
+
+
+/* GOOGLE FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+/*  RESET CSS */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+
+/* BODY */
+
+body{
+
+    background:#f4f8ff;
+
+    overflow-x:hidden;
+
+}
+
+
+/* SIDEBAR */
+
+.sidebar{
+
+    width:250px;
+
+    height:100vh;
+
+    position:fixed;
+
+    left:0;
+
+    top:0;
+
+    background:linear-gradient(180deg,#0F172A,#1E3A8A,#2563EB);
+
+    color:white;
+
+    padding-top:20px;
+
+    box-shadow:5px 0 20px rgba(0,0,0,.25);
+
+}
+
+
+/*LOGO */
+
+.sidebar h3{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+
+/* HORIZONTAL LINE */
+
+.sidebar hr{
+
+    border:1px solid rgba(255,255,255,.15);
+
+    margin-bottom:20px;
+
+}
+
+
+/* MENU LINKS */
+
+.sidebar a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px 25px;
+
+    font-size:16px;
+
+    font-weight:500;
+
+    transition:.35s;
+
+}
+
+
+/* MENU ICON */
+
+.sidebar i{
+
+    width:22px;
+
+    text-align:center;
+
+}
+
+
+/* MENU HOVER EFFECT */
+
+.sidebar a:hover{
+
+    background:rgba(255,255,255,.15);
+
+    border-left:5px solid #38BDF8;
+
+    padding-left:20px;
+
+}
+
+
+/* ACTIVE MENU */
+
+.sidebar a.active{
+
+    background:white;
+
+    color:#2563EB;
+
+    border-left:5px solid #2563EB;
+
+}
+
+
+/* MAIN CONTENT */
+
+.col-md-10{
+
+    margin-left:250px;
+
+    padding:35px;
+
+}
+
+
+/*PAGE TITLE */
+
+h2{
+
+    color:#1E293B;
+
+    font-weight:700;
+
+    margin-bottom:10px;
+
+}
+
+
+/*DASHBOARD CARD */
+
+.card{
+
+    border:none;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.4s;
+
+}
+
+
+/* CARD ANIMATION */
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.18);
+
+}
+
+
+/* CARD BODY */
+
+.card-body{
+
+    padding:30px;
+
+}
+
+
+/* CARD TITLE */
+
+.card h4{
+
+    font-size:20px;
+
+    font-weight:600;
+
+}
+
+
+/* CARD NUMBER */
+
+.card h1{
+
+    font-size:42px;
+
+    font-weight:700;
+
+    margin-top:10px;
+
+}
+
+
+/* PRIMARY CARD */
+
+.bg-primary{    
+
+    background:linear-gradient(135deg,#021e67,#143cdc)!important;
+
+}
+
+
+/* SUCCESS CARD */
+
+.bg-success{
+
+    background:linear-gradient(135deg,#026a47,#04b47c)!important;
+
+}
+
+
+/*DANGER CARD */
+
+.bg-danger{
+
+    background:linear-gradient(135deg,#7f0505,#da1c1c)!important;
+
+}
+
+
+/*  RESPONSIVE */
+
+@media(max-width:992px){
+
+.sidebar{
+
+    width:100%;
+
+    height:auto;
+
+    position:relative;
+
+}
+
+.col-md-10{
+
+    margin-left:0;
+
+}
+
+}
